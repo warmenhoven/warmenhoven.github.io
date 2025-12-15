@@ -1,30 +1,134 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-  <head>
-    <title>Eric Warmenhoven</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" charset="utf-8" />
-  </head>
-  <body>
-    <div id="header">
-      <h1 id="page-title">Eric Warmenhoven</h1>
-    </div>
-    <div id="content">
-      <h3>Me</h3>
-      <p>
-        Please <a href="mailto:eric@warmenhoven.org">email me</a>
-        (eric@warmenhoven.org). If your name is Warmenhoven and you'd
-        like an @warmenhoven.org email address, that can be arranged.
-      </p>
-      <h3>Useful Things</h3>
-      <p>
-        <ul>
-          <li><a href="/BangleApps/">Bangle Watch Apps</a></li>
-          <li><a href="/vocab/">Latin Vocab Quiz</a></li>
-          <li><a href="/retropad-editor/">RetroArch overlay editor</a></li>
-          <li><a href="/skin2overlay/">Delta Skin to RetroArch overlay converter</a></li>
-        </ul>
-      </p>
-    </div>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eric Warmenhoven</title>
+  <meta name="description" content="Personal page of Eric Warmenhoven">
+  <meta property="og:title" content="Eric Warmenhoven">
+  <meta property="og:description" content="Personal page of Eric Warmenhoven">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.warmenhoven.org/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='Georgia'>W</text></svg>">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f0f0f0;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+    main {
+      max-width: 500px;
+      width: 100%;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 2.5rem 2rem;
+    }
+    h1 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 2rem;
+      font-weight: normal;
+      margin-bottom: 0.25rem;
+      color: #111;
+    }
+    .contact {
+      margin-bottom: 2rem;
+    }
+    .contact a {
+      color: #1a5f7a;
+      text-decoration: none;
+      font-size: 0.9375rem;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 1.125rem;
+      font-weight: normal;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 0.875rem;
+    }
+    .projects {
+      margin-bottom: 2rem;
+    }
+    .projects ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .projects a {
+      display: block;
+      padding: 0.75rem 1rem;
+      background: #f8f8f8;
+      border-radius: 6px;
+      color: #1a5f7a;
+      text-decoration: none;
+      transition: background 0.15s ease;
+    }
+    .projects a:hover {
+      background: #f0f0f0;
+    }
+    footer {
+      display: flex;
+      gap: 1rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #eee;
+    }
+    footer a {
+      color: #888;
+      text-decoration: none;
+      font-size: 0.875rem;
+    }
+    footer a:hover {
+      color: #555;
+      text-decoration: underline;
+    }
+    /* Keyboard focus states */
+    a:focus {
+      outline: 2px solid #1a5f7a;
+      outline-offset: 2px;
+    }
+    .projects a:focus {
+      outline-offset: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Eric Warmenhoven</h1>
+    <p class="contact">
+      <a href="mailto:eric@warmenhoven.org">eric@warmenhoven.org</a>
+    </p>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="/BangleApps/">Bangle Watch Apps</a></li>
+        <li><a href="/vocab/">Latin Vocab Quiz</a></li>
+        <li><a href="/retropad-editor/">RetroArch Overlay Editor</a></li>
+        <li><a href="/skin2overlay/">Delta Skin to RetroArch Overlay Converter</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="https://github.com/warmenhoven" rel="me">GitHub</a>
+      <a href="https://linkedin.com/in/warmenhoven" rel="me">LinkedIn</a>
+    </footer>
+  </main>
+</body>
 </html>
