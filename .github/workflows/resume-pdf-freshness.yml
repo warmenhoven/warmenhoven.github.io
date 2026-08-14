@@ -1,0 +1,51 @@
+name: Resume PDF freshness
+
+# resume.pdf is a committed build artifact: GitHub Pages runs Jekyll only, so it
+# never executes resume/build.sh. This fails the build if the resume sources
+# change without the regenerated PDF being committed alongside them.
+
+on:
+  push:
+    paths:
+      - 'resume/index.md'
+      - 'resume/resume.typ'
+      - 'resume/resume.lua'
+      - 'resume/build.sh'
+  pull_request:
+    paths:
+      - 'resume/index.md'
+      - 'resume/resume.typ'
+      - 'resume/resume.lua'
+      - 'resume/build.sh'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify resume.pdf was rebuilt
+        env:
+          BEFORE: ${{ github.event.before }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+
+          base="${BASE:-$BEFORE}"
+          if [ -z "$base" ] || ! git cat-file -e "$base^{commit}" 2>/dev/null; then
+            echo "No usable base commit (new branch or force push); skipping check."
+            exit 0
+          fi
+
+          changed="$(git diff --name-only "$base" "$GITHUB_SHA")"
+          echo "Changed files:"
+          echo "$changed" | sed 's/^/  /'
+
+          if echo "$changed" | grep -qx 'resume/resume.pdf'; then
+            echo "resume.pdf was regenerated."
+          else
+            echo "::error file=resume/index.md::Resume sources changed but resume/resume.pdf did not. Run resume/build.sh and commit the regenerated PDF."
+            exit 1
+          fi

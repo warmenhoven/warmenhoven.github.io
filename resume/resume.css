@@ -26,6 +26,14 @@ h1 + p {
   margin: 0;
 }
 
+/* The "·" separators on the contact line, emphasized in the markdown purely so
+   they can be given room here. */
+h1 + p em {
+  font-style: normal;
+  color: #a3adb8;
+  padding: 0 0.45em;
+}
+
 h2 {
   font-size: 0.8125rem;
   font-weight: 600;
