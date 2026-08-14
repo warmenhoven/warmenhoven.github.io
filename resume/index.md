@@ -1,10 +1,11 @@
 ---
 title: Eric Warmenhoven - Resume
+layout: resume
 ---
 
 # Eric Warmenhoven
 
-Bethesda, Maryland | eric@warmenhoven.org | [linkedin.com/in/ericwarmenhoven](https://linkedin.com/in/ericwarmenhoven)
+Washington, DC area | eric@warmenhoven.org | [linkedin.com/in/ericwarmenhoven](https://linkedin.com/in/ericwarmenhoven)
 
 ---
 

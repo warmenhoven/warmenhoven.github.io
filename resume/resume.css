@@ -1,4 +1,5 @@
-/* Styles for the generated resume.html (see build.sh). */
+/* Shared by the published page (_layouts/resume.html) and the pandoc-generated
+   resume.html (see build.sh). Mirrors the typography of resume.pdf. */
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -56,3 +57,37 @@ ul { padding-left: 1.15rem; }
 li { margin-bottom: 0.25rem; }
 
 a { color: #1a5f7a; }
+
+/* Nav bar above the resume itself (published page only) */
+.page-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.25rem;
+  font-size: 0.875rem;
+}
+
+.page-actions a {
+  color: #5b6570;
+  text-decoration: none;
+}
+
+.page-actions a:hover { color: #1a5f7a; }
+
+.page-actions .pdf {
+  color: #1a5f7a;
+  border: 1px solid #b9d2dc;
+  border-radius: 6px;
+  padding: 0.3rem 0.75rem;
+}
+
+.page-actions .pdf:hover { background: #f2f7f9; }
+
+a:focus { outline: 2px solid #1a5f7a; outline-offset: 2px; }
+
+@media print {
+  body { max-width: none; padding: 0; }
+  .page-actions { display: none; }
+  h2 { margin-top: 1.25rem; }
+}
