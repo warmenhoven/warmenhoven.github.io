@@ -10,7 +10,7 @@ Bethesda, Maryland | eric@warmenhoven.org | [linkedin.com/in/ericwarmenhoven](ht
 
 ## Professional Summary
 
-Staff software engineer with 22+ years of experience building systems across the full stack, from embedded devices to cloud services. Proven track record of technical leadership on high-impact projects at Netflix, spanning streaming infrastructure on millions of consumer devices, engineering management, and cloud-based gaming platforms. Deep expertise in embedded systems, cross-platform SDKs, and constrained device optimization. Active open-source contributor with experience shipping software used by millions of users worldwide.
+Staff software engineer with 24+ years of experience building systems across the full stack, from embedded devices to cloud services. Proven track record of technical leadership on high-impact projects at Netflix, spanning streaming infrastructure on millions of consumer devices, engineering management, and cloud-based gaming platforms. Deep expertise in embedded systems, cross-platform SDKs, and constrained device optimization. Active open-source contributor with experience shipping software used by millions of users worldwide.
 
 ---
 

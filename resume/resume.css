@@ -9,8 +9,6 @@ body {
   padding: 2.5rem 1.25rem 4rem;
 }
 
-header#title-block-header h1.title { display: none; }
-
 h1 {
   font-weight: 300;
   font-size: 2rem;
