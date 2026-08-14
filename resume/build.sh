@@ -27,6 +27,8 @@ pandoc index.md -o resume.html \
 echo "Generating pdf..."
 pandoc index.md -o resume.pdf \
     --from markdown \
-    --pdf-engine=typst
+    --pdf-engine=typst \
+    --template=resume.typ \
+    --lua-filter=resume.lua
 
 echo "Done! Generated resume.docx, resume.html, and resume.pdf"

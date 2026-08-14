@@ -10,7 +10,7 @@ Bethesda, Maryland | eric@warmenhoven.org | [linkedin.com/in/ericwarmenhoven](ht
 
 ## Professional Summary
 
-Senior software engineer with 22+ years of experience building systems across the full stack, from embedded devices to cloud services. Proven track record of technical leadership on high-impact projects at Netflix, spanning streaming infrastructure on millions of consumer devices, engineering management, and cloud-based gaming platforms. Deep expertise in embedded systems, cross-platform SDKs, and constrained device optimization. Active open-source contributor with experience shipping software used by millions of users worldwide.
+Staff software engineer with 22+ years of experience building systems across the full stack, from embedded devices to cloud services. Proven track record of technical leadership on high-impact projects at Netflix, spanning streaming infrastructure on millions of consumer devices, engineering management, and cloud-based gaming platforms. Deep expertise in embedded systems, cross-platform SDKs, and constrained device optimization. Active open-source contributor with experience shipping software used by millions of users worldwide.
 
 ---
 
@@ -28,7 +28,7 @@ Senior software engineer with 22+ years of experience building systems across th
 
 ## Professional Experience
 
-### Senior Software Engineer, Games SDK
+### Staff Software Engineer, Games SDK
 **Netflix** | Remote (Maryland) | February 2021 - Present
 
 - Lead iOS engineer on the Netflix Games SDK, enabling third-party game developers to integrate with Netflix's cloud-based Games Development Platform
@@ -85,18 +85,27 @@ Senior software engineer with 22+ years of experience building systems across th
 
 ## Open Source Contributions
 
-**Libretro** (Contributor, 2021-Present) - Active contributor to RetroArch cross-platform gaming emulation frontend and many libretro cores, focusing on macOS/iOS/tvOS platform support, CI/CD pipeline using gitlab and docker, crash analysis, performance optimization, and build system improvements.
+### Libretro
+**Contributor** | 2021 - Present
 
-**Debian** (Developer, 2005-2014) - Maintain packages for the Debian Linux distribution.
+Active contributor to RetroArch cross-platform gaming emulation frontend and many libretro cores, focusing on macOS/iOS/tvOS platform support, CI/CD pipeline using gitlab and docker, crash analysis, performance optimization, and build system improvements.
 
-**Gaim/Pidgin** (Lead Developer, 2000-2002) - Led development of multi-protocol instant messaging client. Redesigned networking for non-blocking I/O, created plugin architecture, and implemented support for AIM, Yahoo, MSN, and other protocols. Software now used by millions worldwide.
+### Debian
+**Developer** | 2005 - 2014
+
+Maintain packages for the Debian Linux distribution.
+
+### Gaim/Pidgin
+**Lead Developer** | 2000 - 2002
+
+Led development of multi-protocol instant messaging client. Redesigned networking for non-blocking I/O, created plugin architecture, and implemented support for AIM, Yahoo, MSN, and other protocols. Software now used by millions worldwide.
 
 ---
 
 ## Education
 
-**Bachelor of Science in Computer Science**
-University of California, Santa Barbara | Graduated June 2002
+### Bachelor of Science in Computer Science
+**University of California, Santa Barbara** | Graduated June 2002
 
 ---
 

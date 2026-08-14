@@ -1,0 +1,60 @@
+/* Styles for the generated resume.html (see build.sh). */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.55;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+header#title-block-header h1.title { display: none; }
+
+h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 0.35rem;
+}
+
+h1 + p {
+  text-align: center;
+  color: #5b6570;
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #1a5f7a;
+  border-bottom: 1px solid #b9d2dc;
+  padding-bottom: 0.3rem;
+  margin: 2rem 0 0.9rem;
+}
+
+h3 {
+  font-size: 1.0625rem;
+  margin: 1.4rem 0 0.1rem;
+}
+
+h3 + p {
+  color: #5b6570;
+  font-style: italic;
+  margin: 0 0 0.5rem;
+}
+
+hr {
+  border: 0;
+  margin: 1.75rem 0;
+}
+
+ul { padding-left: 1.15rem; }
+li { margin-bottom: 0.25rem; }
+
+a { color: #1a5f7a; }
